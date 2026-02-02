@@ -8,6 +8,6 @@ import { Component, input } from '@angular/core';
   styleUrl: './greeting.component.scss'
 })
 export class GreetingComponent {
-message = input('Hello from Greetings');
+message = input('Hello Greetings');
 nowDate = new Date();
 }
